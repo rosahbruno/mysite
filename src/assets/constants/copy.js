@@ -93,7 +93,41 @@ export const copy = {
       skills: 'Javascript, PHP, SQL, OU Campus CMS'
     }
   ],
-  education: {},
+  education: {
+    activities: 'Activities',
+    awards: 'Awards',
+    schools: [
+      {
+        school: 'Juniata College',
+        startDate: "May '20",
+        endDate: "Present",
+        degree: "Master's of Data Science",
+        gpa: 'GPA: 3.8'
+      },
+      {
+        school: 'Juniata College',
+        startDate: "Aug '14",
+        endDate: "May '18",
+        degree: 'Bachelor of Science',
+        gpa: 'Computer Science (with Honors)\nOverall: 3.4\nMajor: 3.9',
+        activities:
+          "Class of '18 member of the IT Advisory Board\nHead of CS/IT Tutoring labs\nHead of CS/IT Mentoring Program\nGolf Team\nSki Club",
+        awards:
+          "Dale L. Wampler Award in Information Technology/Computer Science\nDean's List (over 3.6) 5 semesters"
+      },
+      {
+        school: 'Conemaugh Township High School',
+        startDate: "Aug '10",
+        endDate: "May '14",
+        degree: 'High School Diploma',
+        gpa: 'GPA: 3.65',
+        activities:
+          "Football\nBasketball\nBaseball\nSki Club\nNewspaper/Yearbook Sports Editor\nJournalism",
+        awards:
+          "Computer & Technology Award 2x\nTeam Captain of Football & Baseball Teams\nAll Conference: Baseball 3x, Football 2x\nAll County: Baseball 4x, Football 2x"
+      }
+    ]
+  },
   skills: {},
   interests: {},
   portfolio: {}
