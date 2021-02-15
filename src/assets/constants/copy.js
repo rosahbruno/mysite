@@ -169,5 +169,108 @@ export const copy = {
     'My current professional interests lie with big data, design & architecture patterns, API development, and DevOps. I am also currently working on building my own headless CMS for my side projects and other websites I work on.',
     'Outside of coding, I am an avid golfer and snowboarder. I enjoy running, most sports, and a ton of TV! Favorites include Bojack Horseman, Barry, The Sopranos, Always Sunny in Philadelphia, Curb Your Enthusiasm, and about 100 more!'
   ],
-  portfolio: {}
+  portfolio: [
+    {
+      title: 'Branding Brand',
+      items: [
+        {
+          description: 'Our clients',
+          link: 'https://www.brandingbrand.com'
+        }
+      ]
+    },
+    {
+      title: 'BNY Mellon',
+      items: [
+        {
+          description:
+            'all proprietary internal apps (help desk tool, incident management, internal social network, emergency contacts)',
+          link: ''
+        }
+      ]
+    },
+    {
+      title: 'UPMC',
+      items: [
+        {
+          description:
+            'Worked on the MARS app. Our team was moving a dataset of 2+ billion records to Hadoop and rebuilding our services & UI.',
+          link: ''
+        }
+      ]
+    },
+    {
+      title: 'Precision Studio',
+      items: [
+        {
+          description: "DeNunzio's",
+          link: 'http://www.denunziosrestaurant.com'
+        },
+        {
+          description: 'Stoney Brook',
+          link: 'https://www.stoneybrooketown.com'
+        },
+        {
+          description: 'Spaghetti Benders',
+          link: 'https://spaghettibenders.com'
+        },
+        {
+          description: 'Shrewsbury Pet Shop',
+          link: 'http://shrewsburypets.com'
+        },
+        {
+          description: 'Precision Studio',
+          link: 'https://precisionstudio.org'
+        }
+      ]
+    },
+    {
+      title: 'Juniata',
+      items: [
+        {
+          description: 'Juniata Website',
+          link: 'https://www.juniata.edu'
+        },
+        {
+          description: 'Hue Calendar',
+          link: 'https://github.com/rosahbruno/Hue_Calendar'
+        },
+        {
+          description: 'Fort Mill EMS App',
+          link: 'https://github.com/rosahbruno/fmEMSFinalApp'
+        }
+      ]
+    },
+    {
+      title: 'Additional Programming',
+      items: [
+        {
+          description: 'GitHub',
+          link: 'https://github.com/rosahbruno'
+        },
+        {
+          description: 'CodeWars',
+          link: 'https://www.codewars.com/users/rosahbruno'
+        }
+      ]
+    },
+    {
+      title: 'Research',
+      items: [
+        {
+          description: 'Creating a Cross-Platform Mobile App',
+          link: '',
+          subItem:
+            'Conducted research with a colleague on the process & best toolset for building a cross-platform mobile app. The culmination of our research was developing an MVP of a mobile app, Bizi Marketplace.'
+        },
+        {
+          description:
+            'Quantum Computing - The Catalyst of a Computing Revolution',
+          link: '',
+          subItem:
+            'Conducted research with a colleague on the potential impact of quantum computing on our everyday lives in a very near future.'
+        }
+      ]
+    }
+  ]
 };
