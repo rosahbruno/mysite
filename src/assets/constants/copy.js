@@ -165,6 +165,9 @@ export const copy = {
       ]
     }
   ],
-  interests: {},
+  interests: [
+    'My current professional interests lie with big data, design & architecture patterns, API development, and DevOps. I am also currently working on building my own headless CMS for my side projects and other websites I work on.',
+    'Outside of coding, I am an avid golfer and snowboarder. I enjoy running, most sports, and a ton of TV! Favorites include Bojack Horseman, Barry, The Sopranos, Always Sunny in Philadelphia, Curb Your Enthusiasm, and about 100 more!'
+  ],
   portfolio: {}
 };
