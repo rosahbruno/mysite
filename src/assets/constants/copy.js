@@ -100,7 +100,7 @@ export const copy = {
       {
         school: 'Juniata College',
         startDate: "May '20",
-        endDate: "Present",
+        endDate: 'Present',
         degree: "Master's of Data Science",
         gpa: 'GPA: 3.8'
       },
@@ -122,13 +122,49 @@ export const copy = {
         degree: 'High School Diploma',
         gpa: 'GPA: 3.65',
         activities:
-          "Football\nBasketball\nBaseball\nSki Club\nNewspaper/Yearbook Sports Editor\nJournalism",
+          'Football\nBasketball\nBaseball\nSki Club\nNewspaper/Yearbook Sports Editor\nJournalism',
         awards:
-          "Computer & Technology Award 2x\nTeam Captain of Football & Baseball Teams\nAll Conference: Baseball 3x, Football 2x\nAll County: Baseball 4x, Football 2x"
+          'Computer & Technology Award 2x\nTeam Captain of Football & Baseball Teams\nAll Conference: Baseball 3x, Football 2x\nAll County: Baseball 4x, Football 2x'
       }
     ]
   },
-  skills: {},
+  skills: [
+    {
+      title: 'Frontend',
+      items: ['React Native*', 'React*', 'iOS Development', 'Angular', 'Gatsby']
+    },
+    {
+      title: 'Backend',
+      items: ['SQL*', 'Node*', 'REST API development*', 'Spring Boot']
+    },
+    {
+      title: 'Languages',
+      items: ['Typescript/JavaScript*', 'Python*', 'Java*', 'Scala', 'Swift']
+    },
+    {
+      title: 'Big Data',
+      items: ['Hadoop*', 'Spark', 'MapReduce*', 'ETL*', 'R']
+    },
+    {
+      title: 'Design (System & UI)',
+      items: ['Figma', 'Sketch', 'Visio', 'Lucidchart*', 'ER Diagrams']
+    },
+    {
+      title: 'Version Control',
+      items: ['Git*', 'GitHub*', 'GitLab', 'Git Flow*', 'SVN']
+    },
+    {
+      title: 'Misc',
+      items: [
+        'Linux*',
+        'Travis',
+        'Automation Scripting*',
+        'Project Planning',
+        'Agile',
+        'Process Improvement*'
+      ]
+    }
+  ],
   interests: {},
   portfolio: {}
 };
