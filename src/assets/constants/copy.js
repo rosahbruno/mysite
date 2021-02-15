@@ -184,7 +184,7 @@ export const copy = {
       items: [
         {
           description:
-            'all proprietary internal apps (help desk tool, incident management, internal social network, emergency contacts)',
+            'Worked on all proprietary internal apps (help desk tool, incident management, internal social network, emergency contacts)',
           link: ''
         }
       ]
