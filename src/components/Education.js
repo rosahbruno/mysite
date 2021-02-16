@@ -53,7 +53,9 @@ const Education = () => (
             )}
           </div>
           <div className="resume-date text-md-right">
-            <span className="text-primary">aug '14 - may '18</span>
+            <span className="text-primary">
+              {item.startDate} - {item.endDate}
+            </span>
           </div>
         </div>
       ))}
