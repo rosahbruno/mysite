@@ -15,11 +15,25 @@ const Experience = () => (
             <div className="subheading mb-3">
               <a href={item.link}>{item.company}</a>
             </div>
-            {item.description.split('\n').map(line => <p>{line}</p>)}
-            <b>Skills</b>: {item.skills}
+            {item.description.split('\n').map(line => (
+              <p>{line}</p>
+            ))}
+            {!!item?.links && item.links.map(linkDetails => (
+              <>
+                <a href={linkDetails.link}>{linkDetails.title}</a>
+                <br />
+              </>
+            ))}
+            {!!item.skills && (
+              <>
+                <b>Skills</b>: {item.skills}
+              </>
+            )}
           </div>
           <div className="resume-date text-md-right">
-            <span className="text-primary">{item.startDate} - {item.endDate}</span>
+            <span className="text-primary">
+              {item.startDate} - {item.endDate}
+            </span>
           </div>
         </div>
       ))}

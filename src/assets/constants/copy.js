@@ -14,22 +14,31 @@ export const copy = {
   },
   about: {
     header:
-      'Welcome to my site! I am a software engineer located in Pittsburgh, Pa. I am currently working at Branding Brand as a tech lead for one of our largest clients.',
+      'Welcome to my site! I am a Senior Software Engineer at Mozilla.',
     subHeader:
-      "I am also working towards my Master's of Data Science at Juniata College expected to graduate in Dec '21. I also serve as Co-Founder & Lead Developer for Precision Studio based out of York, Pa.",
+      "I hold a master's degree in Data Science & a bachelor's degree in Computer Science from Juniata College. I also serve as Co-Founder & Lead Developer for Precision Studio based out of York, Pa.",
     tertiaryHeader:
-      'I have experience, and a strong interest, in Mobile, Web, Backend, & Data Engineering.'
+      'I am currently most interested in data engineering & cross-platform mobile development.'
   },
   experience: [
     {
-      title: 'Software Engineer',
-      startDate: "Dec '19",
+      title: 'Senior Software Engineer - Data Collection Tools',
+      startDate: "Aug '22",
       endDate: 'Present',
-      company: 'Branding Brand',
-      description:
-        "Serving as Tech Lead on 3 React Native apps for one of our largest clients. I work very closely with our PMs, EMs, & Stakeholders to plan and complete work.\nI lead a team of 3-4 devs in maintenance and enhancements across the apps. During my time we have completed countless large features including an entire app redesign.\nI have also contributed to our process improvement by introducing more thorough code reviews, PR templates, unit testing, developer documentation, helping build a new release plan, etc.\nDuring this time I have also contributed to our company's open source offering.",
-      link: 'https://www.brandingbrand.com',
-      skills: 'TS, React Native, React, Jest, Travis, Git'
+      company: 'Mozilla',
+      description: 'Working specifically on Glean & Glean.js',
+      link: 'https://www.mozilla.org',
+      skills: '',
+      links: [
+        {
+          title: 'Glean',
+          link: 'https://github.com/mozilla/glean'
+        },
+        {
+          title: 'Glean.js',
+          link: 'https://github.com/mozilla/glean.js'
+        }
+      ]
     },
     {
       title: 'Co-Founder/Lead Developer',
@@ -37,40 +46,100 @@ export const copy = {
       endDate: 'Present',
       company: 'Precision Studio',
       description:
-        'I lead all technical projects and handle mobile/web development. We have worked with lots of clients in different capacities and rolled out 10+ sites.\nWe are also developing our own proprietary software which we intend to release in the near future!\nI also assist with with client acquisition, requirements gathering, etc.',
-      link: 'https://precisionstudio.org/',
+        `- Serve as technical lead on all web / mobile projects and handle project planning, requirements gathering, etc..
+        - Rolled out 10+ sites
+        - Assist with client acquisition, design, SEO, site optimizations`,
+      link: 'https://precisionstudio.org/'
+    },
+    {
+      title: 'Senior Software Engineer',
+      startDate: "Aug '21",
+      endDate: "Aug '22",
+      company: 'Branding Brand',
+      description: `- Served as tech lead across multiple projects
+        - Played key role in architecture of new design for multi-tenancy projects and internationalization
+        - Tasked with re-architecting base template for new apps
+        - Technical reference for RN, React, app architecture, native apps, build system, CI/CD
+        - Led initiative for better company-wide documentation
+        - Played key role helping secure contracts/partnerships with various clients
+        - Developed and administered trainings on: internal systems, ways of working, app architecture
+        - Conducted lots of interviews and played a key role in the hiring process
+        - Helped develop a revamped onboarding experience
+        - Contributed in some capacity to almost all RN projects
+        - Always helping put out fires, working on high-priority items, providing technical support for developers, managers, and PMs`,
+      link: 'https://www.brandingbrand.com',
+      skills: 'Typescript, React Native, React, Travis, Angular, GitHub'
+    },
+    {
+      title: 'Software Engineer II',
+      startDate: "Mar '21",
+      endDate: "Sep '21",
+      company: 'UPMC',
+      description: `- Developer on the IMS team building internal tools to manage company employee app access
+        - Led projects: proprietary CMS, international address support, Adobe Sign integration
+        - Actively contributed to code reviews, team retros, sub-tasking, & sprint planning`,
+      link: 'https://www.brandingbrand.com',
+      skills: 'React, C#, SQL, REST APIs, Jest, Azure DevOps, Linux, Git'
+    },
+    {
+      title: 'Software Engineer',
+      startDate: "Dec '19",
+      endDate: "Mar '21",
+      company: 'Branding Brand',
+      description: `- Served as technical lead for one of our largest clients, an RN app with 1M+ monthly active users
+        - Led development of app redesign, countless large features, & platform upgrades
+        - Managed multiple repos: code review, creating & distributing builds, branch management, etc.
+        - Helped drive adoption of team initiatives: more thorough code reviews, PR templates, unit testing, developer/support docs, feature kickoffs, etc.
+        - CI/CD with Travis
+        - Assisted with sprint planning, capacity planning, technical subtasking, onboarding, interviewing, client meetings, etc.`,
+      link: 'https://www.brandingbrand.com',
       skills:
-        'React, Go, Project Planning, Design, Marketing Campaigns, SEO, Git'
+        'Typescript, React Native, React, Jest, Travis, Git, Git Flow, Jira, Process Improvement, Scrum'
     },
     {
       title: 'Software Engineer',
       startDate: "Aug '19",
       endDate: "Dec '19",
       company: 'BNY Mellon',
-      description:
-        'I worked on the mobility team inside of workplace technology. My time was split between native (both iOS & Android) & hybrid development (Ionic).\nI led a major version upgrade of 2 of our hybrid apps in <1 month. I also worked with other internal teams on architecture and design of a new Emergency Contacts app.',
+      description: `- Native and Hybrid mobile development of internal apps made available through Intune
+        - Actively participated in dev, sprint planning, and code reviews
+        - Led migration of internal hybrid apps from Ionic3 -> Ionic 4
+        - Led implementation of dark mode in hybrid apps`,
       link: 'https://www.bnymellon.com/',
-      skills: 'TS, Swift, Kotlin, Ionic, Angular, Node, Sketch, GitLab'
+      skills: 'Typescript, Swift, Kotlin, Ionic, Angular, Node, Sketch, GitLab'
     },
     {
       title: 'Software Engineer',
       startDate: "May '17",
       endDate: "Aug '19",
       company: 'UPMC',
-      description:
-        'I served as a member of the MARS application team which was a proprietary data warehouse that had over 30+ years of clinical health records.\nI split work between helping Sr devs get our old services ported over to our new Hadoop cluster and working on maintaining legacy Mars. I worked on a variety of things from Scala & Spark jobs, to API development in Node, automation scripting in Python, UI development in Polymer, and rewriting all of our developer documentation.\n',
+      description: `- Worked as an engineer on the Mars Application Team
+        - Assist the team with migrating data to Hadoop and rewrite our legacy C/C++ processes in Scala/Java
+        - Build Spark/Scala jobs used for clinical record ingestion, validation, and data quality
+        - UI and API Gateway development using Polymer, Nodejs, SQL, Hive, & Solr
+        - Data quality work maintaining mapping tables for all interfaces
+        - Automated legacy processes which cut daily maintenance tasks from 2+ hours to ~10 minutes
+        - Led development for our team for the hospital-wide standardization of lab codes
+        - Built jobs to restructure our entire result code database
+        - Developed UI and hooked up backend services for a web interface that internal systems could use to correct their ill-formatted HL7 messages
+        - Wrote various scripts to more accurately report system user data and simplify our test event work flows
+        - Built/maintained HL7 parsers
+        - Created UI mockups, database design diagrams, and other visual aids for processes
+        - Full support/dev documentation audit and revamp
+        - Assisted with support, handled off-hours maintenance, and was part of the on-call rotation`,
       link: 'https://www.upmc.com/',
-      skills: 'Python, Scala, Java, C/C++, Spark, Node, Hadoop, Linux, SQL, Git'
+      skills:
+        'Python, Java, C/C++, ETL, Spark, Scala, Solr, Node, SQL, Hadoop, Git/GitHub, Linux'
     },
     {
       title: 'Lead Developer',
       startDate: "Jan '18",
       endDate: "Dec '19",
       company: 'Bizi Marketplace',
-      description:
-        'Bizi was developed as a cross-platform marketplace app that targeted college campuses.\nI served as lead developer and architected and implemented all major features including: authentication, real-time messaging, notifications, social elements, product search, etc.\nOver the course of the project I managed 2 separate teams of 4-5 developers each.',
+      description: `- Led development, handled project management, and oversaw several small teams of developers
+        - Implemented majority of app functionality including: real-time messaging, search, social interactions, product exploration, authentication, theming, ad placements, and integrating offers from local businesses`,
       link: 'https://www.bizimarketplace.com/',
-      skills: 'TS, Angular, Ionic, Node, Firebase, NoSQL, Git, Balsamiq'
+      skills: 'Typescript, Angular, Ionic, Node, Firebase, NoSQL, Git, Balsamiq'
     },
     {
       title: 'Lead Web Developer',
@@ -78,7 +147,7 @@ export const copy = {
       endDate: "May '17",
       company: 'Juniata College',
       description:
-        "Led a team of 8 students that handled the frontend development of www.juniata.edu.\nOur team was responsible for meeting with campus offices and academic departments to discuss improvements and new designs for their sections of the site.\nI worked very closely with our Webmaster and Digital Marketing Specialist to ensure our team was following best practices and staying with the college's branding.",
+        "Managed a team of 8 students in creating and managing sections of Juniata's website",
       link: 'https://www.juniata.edu',
       skills: 'JS, PHP, SQL, Trello, OU Campus CMS'
     },
@@ -88,7 +157,7 @@ export const copy = {
       endDate: "May '16",
       company: 'Juniata College',
       description:
-        'Working as a web developer on the Marketing web team. I played a key role in migration of all site content from our old site to our new CMS.',
+        'Web developer on the Marketing web team. I played a key role in migration of all site content from our old site to our new CMS.',
       link: 'https://www.juniata.edu',
       skills: 'JS, PHP, SQL, OU Campus CMS'
     }
@@ -102,7 +171,7 @@ export const copy = {
         startDate: "May '20",
         endDate: "Dec' 21",
         degree: "Master's of Data Science",
-        gpa: 'GPA: 3.8'
+        gpa: 'GPA: 3.83'
       },
       {
         school: 'Juniata College',
