@@ -26,7 +26,7 @@ export const copy = {
       startDate: "Aug '22",
       endDate: 'Present',
       company: 'Mozilla',
-      description: 'Working specifically on Glean & Glean.js',
+      description: 'Working specifically on Glean & Glean.js.',
       link: 'https://www.mozilla.org',
       skills: '',
       links: [
@@ -239,6 +239,19 @@ export const copy = {
     'Outside of coding, I am an avid golfer and snowboarder. I enjoy running, most sports, and a ton of TV! Favorites include Bojack Horseman, Barry, The Sopranos, Always Sunny in Philadelphia, Curb Your Enthusiasm, and about 100 more!'
   ],
   portfolio: [
+    {
+      title: 'Mozilla',
+      items: [
+        {
+          description: 'Glean',
+          link: 'https://github.com/mozilla/glean'
+        },
+        {
+          description: 'Glean.js',
+          link: 'https://github.com/mozilla/glean.js'
+        }
+      ]
+    },
     {
       title: 'Branding Brand',
       items: [
