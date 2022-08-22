@@ -9,7 +9,6 @@ module.exports = {
   manifestIcon: 'src/assets/images/bbme.png',
   firstName: 'bruno',
   lastName: 'rosa',
-  // social
   socialLinks: [
     {
       icon: 'fa-github',
@@ -20,16 +19,6 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://linkedin.com/in/brunohrosa/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/Bruno_Rosa4',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://www.facebook.com/bruno.rosa.967422',
     },
   ],
   email: 'rosahbruno@gmail.com',
