@@ -8,7 +8,6 @@ export const copy = {
     about: 'About',
     experience: 'Experience',
     education: 'Education',
-    skills: 'Skills',
     interests: 'Interests',
     portfolio: 'Portfolio'
   },
@@ -197,46 +196,9 @@ export const copy = {
       }
     ]
   },
-  skills: [
-    {
-      title: 'Frontend',
-      items: ['React Native*', 'React*', 'iOS Development', 'Angular', 'Gatsby']
-    },
-    {
-      title: 'Backend',
-      items: ['SQL*', 'Node*', 'REST API development*', 'Spring Boot']
-    },
-    {
-      title: 'Languages',
-      items: ['TS/JS*', 'Python*', 'Java*', 'Scala', 'Swift']
-    },
-    {
-      title: 'Big Data',
-      items: ['Hadoop*', 'Spark', 'MapReduce*', 'ETL*', 'R']
-    },
-    {
-      title: 'Design (System & UI)',
-      items: ['Figma', 'Sketch', 'Visio', 'Lucidchart*', 'ER Diagrams']
-    },
-    {
-      title: 'Version Control',
-      items: ['Git*', 'GitHub*', 'GitLab', 'Git Flow*', 'SVN']
-    },
-    {
-      title: 'Misc',
-      items: [
-        'Linux*',
-        'Travis',
-        'Automation Scripting*',
-        'Project Planning',
-        'Agile',
-        'Process Improvement*'
-      ]
-    }
-  ],
   interests: [
-    'My current professional interests lie with big data, design & architecture patterns, API development, and DevOps. I am also currently working on building my own headless CMS for my side projects and other websites I work on.',
-    'Outside of coding, I am an avid golfer and snowboarder. I enjoy running, most sports, and a ton of TV! Favorites include Bojack Horseman, Barry, The Sopranos, Always Sunny in Philadelphia, Curb Your Enthusiasm, and about 100 more!'
+    'My current professional interests are big data, machine learning, rust, front-end frameworks, & cross platform app development.',
+    'Outside of writing code, I am obsessed with golf, I snowboard, run, & play other sports.'
   ],
   portfolio: [
     {

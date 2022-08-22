@@ -10,7 +10,6 @@ const tabs = [
   { content: 'About', href: 'about' },
   { content: 'Experience', href: 'experience' },
   { content: 'Education', href: 'education' },
-  { content: 'Skills', href: 'skills' },
   { content: 'Interests', href: 'interests' },
   { content: 'Portfolio', href: 'portfolio' }
 ];

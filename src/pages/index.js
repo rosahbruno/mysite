@@ -4,7 +4,6 @@ import React from 'react';
 import About from '../components/About';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
-import Skills from '../components/Skills';
 import Interests from '../components/Interests';
 import Portfolio from '../components/Portfolio';
 import Layout from '../components/Layout';
@@ -19,8 +18,6 @@ const IndexPage = () => (
       <Experience />
       <hr className="m-0" />
       <Education />
-      <hr className="m-0" />
-      <Skills />
       <hr className="m-0" />
       <Interests />
       <hr className="m-0" />
